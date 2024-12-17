@@ -48,7 +48,7 @@ Before diving into SQL, it’s important to understand the dataset thoroughly. T
 
 **Album_type**:The type of album (e.g., single or album).
 
-Various metrics such as danceability, energy, loudness, tempo, and more
+Various metrics such as **danceability**, **energy**, **loudness**, **tempo**, and more
 
 ## Querying the Data
 
@@ -60,9 +60,11 @@ After the data is inserted, various SQL queries can be written to explore and an
 Simple data retrieval, filtering, and basic aggregations.
 
 **Medium Queries**
+
 More complex queries involving grouping, aggregation functions, and joins.
 
 **Advanced Queries**
+
 Nested subqueries, window functions, CTEs, and performance optimization.
 
 # 15 Practice Questions
