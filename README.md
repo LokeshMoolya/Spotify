@@ -161,7 +161,7 @@ and streamed_on_youtube !=0
 ```
 
 --------
-# -----Advance-----
+# -----Advance Question-----
 Find the top 3 most-viewed tracks for each artist using window functions.
 Write a query to find tracks where the liveness score is above the average.
 Use a WITH clause to calculate the difference between the highest and lowest energy values for tracks in each album.
@@ -201,7 +201,7 @@ with cte as(select
             group by album
 )
 select album,
-		highest_energy-lowest_energy as energy_diff
+       highest_energy-lowest_energy as energy_diff
 from cte
 order by energy_diff desc
 ```
