@@ -1,6 +1,7 @@
 # Spotify
 
 # -- CREATE TABLE
+```
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE music (
     artist VARCHAR(255),
@@ -28,6 +29,7 @@ CREATE TABLE music (
     energy_liveness FLOAT,
     most_played_on VARCHAR(50)
 );
+```
 use spotify_db
 select * from music
 
