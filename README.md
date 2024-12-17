@@ -41,9 +41,13 @@ select * from music
 Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
 
 **Artist**:The performer of the track.
+
 **Track** :The name of the song.
+
 **Album** :The album to which the track belongs.
+
 **Album_type**:The type of album (e.g., single or album).
+
 Various metrics such as danceability, energy, loudness, tempo, and more
 
 ## Exploratory Data Analysis
