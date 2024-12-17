@@ -70,7 +70,7 @@ Nested subqueries, window functions, CTEs, and performance optimization.
 # 15 Practice Questions
 
 
-## --Easy Level-----
+## Easy Level
 
 
 Q1.Retrieve the names of all tracks that have more than 1 billion streams.
