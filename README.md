@@ -1,6 +1,7 @@
 # Overview
 
-# -- CREATE TABLE
+```
+ CREATE TABLE
 ```sql
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE music (
