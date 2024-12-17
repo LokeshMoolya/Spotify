@@ -69,9 +69,9 @@ Nested subqueries, window functions, CTEs, and performance optimization.
 
 # 15 Practice Questions
 
-----------------
+
 ## --Easy Level-----
-----------------
+
 
 --Q1.Retrieve the names of all tracks that have more than 1 billion streams.
 ```sql
@@ -109,9 +109,9 @@ order by total_track
 ```
 
 
------------
+
 ## Moderate Level
------------
+
 
 --Q1.Calculate the average danceability of tracks in each album.
 ```sql
@@ -155,7 +155,6 @@ where streamed_on_spotify>streamed_on_youtube
 and streamed_on_youtube !=0
 ```
 
---------
 ## Advance Level
 ---Q1.Find the top 3 most-viewed tracks for each artist using window functions.
 ```sql
