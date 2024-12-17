@@ -67,33 +67,6 @@ Nested subqueries, window functions, CTEs, and performance optimization.
 
 # 15 Practice Questions
 
-## Exploratory Data Analysis
-select count(*) from music
-
-select count(distinct artist) from music
-
-
-
-select count(distinct album) from music
-
-select distinct album_type from music 
-
-select max(duration_min)from music
-
-select min(duration_min)from music
-
-select * from music
-where duration_min=0
-
-delete from music
-where duration_min=0
-
-select count(*) from music
-
-select distinct channel from music
-
-select distinct most_played_on from music
-
 ----------------
 # --EASY Question-----
 ----------------
@@ -217,6 +190,20 @@ select album,
 from cte
 order by energy_diff desc
 ```
+
+# Technology Stack
+Database: PostgreSQL
+
+SQL Queries: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
+
+Tools: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
+
+# How to Run the Project
+Install PostgreSQL and pgAdmin (if not already installed).
+Set up the database schema and tables using the provided normalization structure.
+Insert the sample data into the respective tables.
+Execute SQL queries to solve the listed problems.
+Explore query optimization techniques for large datasets.
 
 
 
