@@ -35,6 +35,8 @@ CREATE TABLE music (
 use spotify_db
 select * from music
 
+# Project Steps
+
 # --- EDA---
 select count(*) from music
 
