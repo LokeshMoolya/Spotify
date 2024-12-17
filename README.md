@@ -55,15 +55,17 @@ Various metrics such as danceability, energy, loudness, tempo, and more
 After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into easy, medium, and advanced levels to help progressively develop SQL proficiency.
 
 
-## Easy Queries
+**Easy Queries**
 
 Simple data retrieval, filtering, and basic aggregations.
 
-## Medium Queries
+**Medium Queries**
 More complex queries involving grouping, aggregation functions, and joins.
 
-## Advanced Queries
+**Advanced Queries**
 Nested subqueries, window functions, CTEs, and performance optimization.
+
+# 15 Practice Questions
 
 ## Exploratory Data Analysis
 select count(*) from music
