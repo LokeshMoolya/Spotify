@@ -194,11 +194,11 @@ where liveness >(select avg(liveness)from music)
 --Q3.Use a WITH clause to calculate the difference between the highest and lowest energy values for tracks in each album.
 ```sql
 with cte as(select 
-				album,
-				max(energy)as highest_energy,
-				min(energy)as lowest_energy
-			from music
-			group by album
+                  album,
+                  max(energy)as highest_energy,
+                  min(energy)as lowest_energy
+            from music
+            group by album
 )
 select album,
 		highest_energy-lowest_energy as energy_diff
