@@ -35,9 +35,9 @@ CREATE TABLE music (
 use spotify_db
 select * from music
 
-## Project Steps
+# Project Steps
 
-# 1.Data Exploration 
+## 1.Data Exploration 
 Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
 
 **Artist**:The performer of the track.
@@ -49,6 +49,21 @@ Before diving into SQL, it’s important to understand the dataset thoroughly. T
 **Album_type**:The type of album (e.g., single or album).
 
 Various metrics such as danceability, energy, loudness, tempo, and more
+
+## Querying the Data
+
+After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into easy, medium, and advanced levels to help progressively develop SQL proficiency.
+
+
+# Easy Queries
+
+Simple data retrieval, filtering, and basic aggregations.
+
+# Medium Queries
+More complex queries involving grouping, aggregation functions, and joins.
+
+# Advanced Queries
+Nested subqueries, window functions, CTEs, and performance optimization.
 
 ## Exploratory Data Analysis
 select count(*) from music
