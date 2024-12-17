@@ -1,5 +1,4 @@
 # Overview
-# Spotify
 
 # -- CREATE TABLE
 ```sql
