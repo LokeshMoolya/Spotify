@@ -34,8 +34,6 @@ CREATE TABLE music (
     most_played_on VARCHAR(50)
 );
 ```
-use spotify_db
-select * from music
 
 # Project Steps
 
