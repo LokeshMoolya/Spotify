@@ -35,18 +35,18 @@ CREATE TABLE music (
 use spotify_db
 select * from music
 
-# Project Steps
+## Project Steps
 
-** 1.Data Exploration **
+# 1.Data Exploration 
 Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
 
-## Artist## :The performer of the track.
-## Track ## :The name of the song.
+# Artist # :The performer of the track.
+# Track # :The name of the song.
 ## Album ## :The album to which the track belongs.
 ## Album_type ##:The type of album (e.g., single or album).
 Various metrics such as danceability, energy, loudness, tempo, and more
 
-# --- EDA---
+##  EDA
 select count(*) from music
 
 select count(distinct artist) from music
@@ -161,10 +161,6 @@ and streamed_on_youtube !=0
 
 --------
 # -----Advance Question-----
-1.Find the top 3 most-viewed tracks for each artist using window functions.
-2.Write a query to find tracks where the liveness score is above the average.
-3.Use a WITH clause to calculate the difference between the highest and lowest energy values for tracks in each album.
-
 ---Q1.Find the top 3 most-viewed tracks for each artist using window functions.
 ```sql
 with cte as(
